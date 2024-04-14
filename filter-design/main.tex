@@ -188,7 +188,7 @@ where $D_1 = \frac{1}{(1 - \delta)^2}-1$ and $D_2 = \frac{1}{\delta^2} - 1$ and 
 we get $N\geq 4$ and $0.3084 \leq \epsilon \leq 0.6197$\\
 The below code plots \eqref{eq:mag_freq_response} for different values of $\epsilon$ .
 \begin{lstlisting}
-https://github.com/HarryNyquist/EE1205/blob/main/Filter_Design/codes/plot1.py
+https://github.com/NikhithaSri4/Filter-design/blob/main/filter-design/codes/plot1.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -222,13 +222,13 @@ where $k$ is the index of the pole and \\
 
 The below code computes the values of $s_k$ and stores it in a text file. 
 \begin{lstlisting}
-https://github.com/HarryNyquist/EE1205/blob/main/Filter_Design/codes/sk_gen.c
+https://github.com/NikhithaSri4/Filter-design/blob/main/filter-design/codes/sk_gen.c
 \end{lstlisting}
 The poles obtained are formulated in the table below.
 \input{tables/sk_tab}
 The below code plots the pole-zero plot.
 \begin{lstlisting}
-https://github.com/HarryNyquist/EE1205/blob/main/Filter_Design/codes/pole_zero_plot.py
+https://github.com/NikhithaSri4/Filter-design/blob/main/filter-design/codes/pole_zero_plt.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -249,12 +249,12 @@ We know that from \eqref{eq:mag_freq_response}:-
 \end{align}
 The value of $G_{LP}$ can be found using the following code after appropriate substitution
 \begin{lstlisting}
-    https://github.com/HarryNyquist/EE1205/blob/main/Filter_Design/codes/gain_LP.py
+    https://github.com/NikhithaSri4/Filter-design/blob/main/filter-design/codes/gain_LP.py
 \end{lstlisting}
 Substituting respective values in \eqref{eq:Gain_eq_LP} we get $G_{LP}=0.3126$.
 Simplifications for equation \eqref{eq:design} and \eqref{eq:magnitude_bandpass_sdom} are done using the following code
 \begin{lstlisting}
-    https://github.com/HarryNyquist/EE1205/blob/main/Filter_Design/codes/HaLP_denom.py
+    https://github.com/NikhithaSri4/Filter-design/blob/main/filter-design/codes/HaLP_denom.py
 \end{lstlisting}
 \begin{align}
      H_{a,LP}(s_L) &= \frac{0.3126}{\brak{s_L-s_5}\brak{s_L-s_6}\brak{s_L-s_7}\brak{s_L-s_8}}\\
@@ -262,7 +262,7 @@ Simplifications for equation \eqref{eq:design} and \eqref{eq:magnitude_bandpass_
 \end{align}
 The figure to compare design and specification is produced using the following code
 \begin{lstlisting}
-    https://github.com/HarryNyquist/EE1205/blob/main/Filter_Design/codes/plot2.py
+   https://github.com/NikhithaSri4/Filter-design/blob/main/filter-design/codes/plot2.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -294,7 +294,7 @@ Thus the response in s domain
 \end{align}
 The expressions in the s-domain and gain factors are computed by writing the following Python code. 
 \begin{lstlisting}
-  https://github.com/HarryNyquist/EE1205/blob/main/Filter_Design/codes/plot3.py  
+  https://github.com/NikhithaSri4/Filter-design/blob/main/filter-design/codes/plot3.py 
 \end{lstlisting}
     
 In Figure \ref{fig:band_pass_filter_IIR}, we plot $\vert H_{a,BP}(j\Omega)\vert$ as a function of $\Omega$ for both positve as
@@ -319,7 +319,7 @@ Substituting $s=\frac{1-z^{-1}}{1+z^{-1}}$ in \eqref{eq:magnitude_bandpass_sdom}
 \end{align}
 where $G=3.644\times 10^{-5}$    
 \begin{lstlisting}
-    https://github.com/HarryNyquist/EE1205/blob/main/Filter_Design/codes/filter_in_z.py
+    https://github.com/NikhithaSri4/Filter-design/blob/main/filter-design/codes/filter_in_z.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -340,7 +340,7 @@ The stopband tolerance is $\delta=0.15$.The cutoff-frequency is given by :
 \end{align}
 The following python code is used to plot the frequency and the impulse response of an ideal Low Pass Filter.
 \begin{lstlisting}
-    https://github.com/HarryNyquist/EE1205/blob/main/Filter_Design/codes/FIR_ideal.py
+    https://github.com/NikhithaSri4/Filter-design/blob/main/filter-design/codes/FIR_ideal.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -407,7 +407,7 @@ Therefore the desired impulse response is :
 \end{enumerate}
 The code to plot the magnitude response of the FIR Low Pass Filter is as follows
 \begin{lstlisting}
-    https://github.com/HarryNyquist/EE1205/blob/main/Filter_Design/codes/plot4.py
+   https://github.com/NikhithaSri4/Filter-design/blob/main/filter-design/codes/plot4.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -440,7 +440,7 @@ Multipying by window function we get :
 \end{align}
 The code to plot the same is as follows
 \begin{lstlisting}
-    https://github.com/HarryNyquist/EE1205/blob/main/Filter_Design/codes/plot5.py
+    https://github.com/NikhithaSri4/Filter-design/blob/main/filter-design/codes/plot5.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering

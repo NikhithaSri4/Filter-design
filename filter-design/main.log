@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.11)  14 APR 2024 21:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.11)  14 APR 2024 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1020,13 +1020,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 2
 7.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 27.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 27.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1116,6 +1116,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
 LaTeX Info: Redefining \nameref on input line 27.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1153,7 +1155,7 @@ File: ts1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 36.
-<figs/Non-Ideal-Filter.png, id=7, 865.2325pt x 390.45876pt>
+<figs/Non-Ideal-Filter.png, id=63, 865.2325pt x 390.45876pt>
 File: figs/Non-Ideal-Filter.png Graphic file (type png)
 <use figs/Non-Ideal-Filter.png>
 Package pdftex.def Info: figs/Non-Ideal-Filter.png  used on input line 57.
@@ -1181,198 +1183,113 @@ Overfull \hbox (14.6787pt too wide) detected at line 144
 []
  []
 
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 157.
-
-LaTeX Warning: Reference `eq:freq_transform' on page 4 undefined on input line 
-157.
-
 [4]
-
-LaTeX Warning: Reference `eq:mag_freq_response' on page 5 undefined on input li
-ne 175.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 174--176
 
  []
 
-
-LaTeX Warning: Reference `eq:mag_freq_response' on page 5 undefined on input li
-ne 189.
-
-<figs/plot1.png, id=76, 462.528pt x 346.896pt>
+<figs/plot1.png, id=126, 462.528pt x 346.896pt>
 File: figs/plot1.png Graphic file (type png)
 <use figs/plot1.png>
 Package pdftex.def Info: figs/plot1.png  used on input line 195.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 [5]
-
-LaTeX Warning: Reference `fig:H_for_diff_eb' on page 6 undefined on input line 
-200.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
-
-
-LaTeX Warning: Reference `eq:pole_ques' on page 6 undefined on input line 213.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
-[6 <./figs/plot1.png>] (./tables/sk_tab.tex)
-<figs/Pole_Zero_plt.png, id=100, 462.528pt x 346.896pt>
+[6 <./figs/plot1.png>] (./tables/sk_tab.tex
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 16.
+)
+<figs/Pole_Zero_plt.png, id=154, 462.528pt x 346.896pt>
 File: figs/Pole_Zero_plt.png Graphic file (type png)
 <use figs/Pole_Zero_plt.png>
 Package pdftex.def Info: figs/Pole_Zero_plt.png  used on input line 235.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
  [7]
-
-LaTeX Warning: Reference `tab:values poles sk' on page 8 undefined on input lin
-e 244.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
-
-LaTeX Warning: Reference `eq:mag_freq_response' on page 8 undefined on input li
-ne 246.
-
-
-LaTeX Warning: Reference `eq:Gain_eq_LP' on page 8 undefined on input line 254.
-
-
-
-LaTeX Warning: Reference `eq:design' on page 8 undefined on input line 255.
-
-
-LaTeX Warning: Reference `eq:magnitude_bandpass_sdom' on page 8 undefined on in
-put line 255.
-
 [8 <./figs/Pole_Zero_plt.png>]
-<figs/Design_vs_Specification.png, id=123, 462.528pt x 346.896pt>
+<figs/Design_vs_Specification.png, id=184, 462.528pt x 346.896pt>
 File: figs/Design_vs_Specification.png Graphic file (type png)
 <use figs/Design_vs_Specification.png>
 Package pdftex.def Info: figs/Design_vs_Specification.png  used on input line 2
 69.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
-
-
-LaTeX Warning: Reference `eq:design' on page 9 undefined on input line 270.
-
-
-LaTeX Warning: Reference `eq:specification' on page 9 undefined on input line 2
-70.
-
-[9 <./figs/Design_vs_Specification.png>]
-
-LaTeX Warning: Reference `eq:res1' on page 10 undefined on input line 287.
-
-
-LaTeX Warning: Reference `eq:res2' on page 10 undefined on input line 287.
-
-
+ [9 <./figs/Design_vs_Specification.png>]
 Overfull \hbox (58.7106pt too wide) detected at line 294
 []
  []
 
-
-LaTeX Warning: Reference `fig:band_pass_filter_IIR' on page 10 undefined on inp
-ut line 300.
-
-<figs/Band_Pass_Filter.png, id=138, 462.528pt x 346.896pt>
+<figs/Band_Pass_Filter.png, id=202, 462.528pt x 346.896pt>
 File: figs/Band_Pass_Filter.png Graphic file (type png)
 <use figs/Band_Pass_Filter.png>
 Package pdftex.def Info: figs/Band_Pass_Filter.png  used on input line 305.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
-
-LaTeX Warning: Reference `eq:magnitude_bandpass_sdom' on page 10 undefined on i
-nput line 306.
-
-
-LaTeX Warning: Reference `eq:magnitude_bandpass_sdom' on page 10 undefined on i
-nput line 306.
-
 [10]
-
-LaTeX Warning: Reference `eq:magnitude_bandpass_sdom' on page 11 undefined on i
-nput line 316.
-
-
 Overfull \hbox (120.95891pt too wide) detected at line 319
 []
  []
 
-<figs/Digital_BPF.png, id=153, 462.528pt x 346.896pt>
+<figs/Digital_BPF.png, id=220, 462.528pt x 346.896pt>
 File: figs/Digital_BPF.png Graphic file (type png)
 <use figs/Digital_BPF.png>
 Package pdftex.def Info: figs/Digital_BPF.png  used on input line 326.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
 [11 <./figs/Band_Pass_Filter.png>]
-<figs/LPF_FIR.png, id=165, 722.7pt x 433.62pt>
+<figs/LPF_FIR.png, id=230, 722.7pt x 433.62pt>
 File: figs/LPF_FIR.png Graphic file (type png)
 <use figs/LPF_FIR.png>
 Package pdftex.def Info: figs/LPF_FIR.png  used on input line 347.
 (pdftex.def)             Requested size: 345.0pt x 206.9972pt.
- [12 <./figs/Digital_BPF.png>]
-
-LaTeX Warning: Reference `eq:h(n)_for_LPF' on page 13 undefined on input line 3
-60.
-
-[13 <./figs/LPF_FIR.png>]
-<figs/FIR_Low_Filter.png, id=189, 462.528pt x 346.896pt>
+ [12 <./figs/Digital_BPF.png>] [13 <./figs/LPF_FIR.png>]
+<figs/FIR_Low_Filter.png, id=252, 462.528pt x 346.896pt>
 File: figs/FIR_Low_Filter.png Graphic file (type png)
 <use figs/FIR_Low_Filter.png>
 Package pdftex.def Info: figs/FIR_Low_Filter.png  used on input line 414.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
  [14 <./figs/FIR_Low_Filter.png>]
-<figs/FIR_Bandpass_Filter.png, id=203, 462.528pt x 346.896pt>
+<figs/FIR_Bandpass_Filter.png, id=267, 462.528pt x 346.896pt>
 File: figs/FIR_Bandpass_Filter.png Graphic file (type png)
 <use figs/FIR_Bandpass_Filter.png>
 Package pdftex.def Info: figs/FIR_Bandpass_Filter.png  used on input line 447.
 (pdftex.def)             Requested size: 345.0pt x 258.76335pt.
- [15 <./figs/FIR_Bandpass_Filter.png>] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
+ [15] [16 <./figs/FIR_Bandpass_Filter.png>] (./main.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  2698E4C202C4C74885E80AF76F45E968;2537.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 2698E4C202C4C74885E80AF76F45E968;2537.
  ) 
 Here is how much of TeX's memory you used:
- 42372 strings out of 478287
- 980694 string characters out of 5849289
- 1489469 words of memory out of 5000000
- 59751 multiletter control sequences out of 15000+600000
- 509713 words of font info for 123 fonts, out of 8000000 for 9000
+ 42394 strings out of 478287
+ 980958 string characters out of 5849289
+ 1496408 words of memory out of 5000000
+ 59767 multiletter control sequences out of 15000+600000
+ 508681 words of font info for 122 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 115i,21n,118p,424b,1174s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,21n,118p,424b,1189s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (15 pages, 358466 bytes).
+e/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
+fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on main.pdf (16 pages, 362455 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 229 compressed objects within 3 object streams
- 135 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 296 compressed objects within 3 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 
